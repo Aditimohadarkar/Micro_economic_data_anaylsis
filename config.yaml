@@ -1,0 +1,15 @@
+api:
+  fred_api_key: "8009376b90d81b5c8ac33afa156f190a"
+  series:
+    - UNRATE        # unemployment rate
+    - CPIAUCSL      # inflation (CPI)
+    - FEDFUNDS      # interest rate
+  observation_start: "2020-01-01"
+
+paths:
+  raw: data/raw
+  extracted: data/extracted
+  curated: data/curated/fred_csv
+
+pipeline:
+  pages: 1   
